@@ -13,15 +13,16 @@
     border: 1px solid var(--slidev-code-border);
   }
 
-  code, pre {
+  code,
+  pre {
     font-size: 1em;
   }
 }
 
 :not(pre) > code:before,
 :not(pre) > code:after {
-  content: '`';
-  opacity: 0.50;
+  content: "`";
+  opacity: 0.5;
 }
 
 :not(pre) > code {

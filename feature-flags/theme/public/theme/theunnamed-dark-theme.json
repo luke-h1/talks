@@ -186,19 +186,14 @@
       }
     },
     {
-      "scope": [
-        "markup.quote.markdown"
-      ],
+      "scope": ["markup.quote.markdown"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#11ffc6"
       }
     },
     {
-      "scope": [
-        "markup.bold.markdown",
-        "punctuation.definition.bold.markdown"
-      ],
+      "scope": ["markup.bold.markdown", "punctuation.definition.bold.markdown"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#5EADF2"
@@ -225,9 +220,7 @@
       }
     },
     {
-      "scope": [
-        "punctuation.definition.metadata.markdown"
-      ],
+      "scope": ["punctuation.definition.metadata.markdown"],
       "settings": {
         "foreground": "#f3b8c2"
       }
@@ -265,10 +258,7 @@
     },
     {
       "name": "String Quoted",
-      "scope": [
-        "string.quoted",
-        "variable.other.readwrite.js"
-      ],
+      "scope": ["string.quoted", "variable.other.readwrite.js"],
       "settings": {
         "fontStyle": "",
         "foreground": "#44FFD2"
@@ -308,10 +298,7 @@
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#11ffc6"
       }
@@ -371,10 +358,7 @@
     },
     {
       "name": "TypeScript Entity Name Type",
-      "scope": [
-        "entity.name.type.tsx",
-        "entity.name.type.module.tsx"
-      ],
+      "scope": ["entity.name.type.tsx", "entity.name.type.module.tsx"],
       "settings": {
         "foreground": "#15C2CB"
       }
@@ -391,9 +375,7 @@
     },
     {
       "name": "Variable Property Other object property",
-      "scope": [
-        "variable.other.object.property"
-      ],
+      "scope": ["variable.other.object.property"],
       "settings": {
         "foreground": "#F5CC00",
         "fontStyle": "italic"
@@ -425,10 +407,7 @@
     },
     {
       "name": "JavaScript Variable Other ReadWrite",
-      "scope": [
-        "variable.other.readwrite.js",
-        "variable.parameter"
-      ],
+      "scope": ["variable.other.readwrite.js", "variable.parameter"],
       "settings": {
         "foreground": "#F3EFF5"
       }
@@ -457,11 +436,7 @@
     },
     {
       "name": "Keywords and Storage types",
-      "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
+      "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#F141A8",
         "fontStyle": "italic"
@@ -469,9 +444,7 @@
     },
     {
       "name": "Keywords operators",
-      "scope": [
-        "keyword.operator"
-      ],
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#F141A8",
         "fontStyle": "italic"
@@ -537,10 +510,7 @@
     },
     {
       "name": "Variables, Let and Const",
-      "scope": [
-        "variable.other.readwrites",
-        "meta.definition.variable"
-      ],
+      "scope": ["variable.other.readwrites", "meta.definition.variable"],
       "settings": {
         "fontStyle": "",
         "foreground": "#F5CC00"
@@ -603,29 +573,21 @@
     },
     {
       "name": "Meta - Decorator",
-      "scope": [
-        "punctuation.decorator"
-      ],
+      "scope": ["punctuation.decorator"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F5CC00"
       }
     },
     {
-      "scope": [
-        "constant.language",
-        "variable.language"
-      ],
+      "scope": ["constant.language", "variable.language"],
       "settings": {
         "foreground": "#FFE45E"
       }
     },
     {
       "name": "Punctuation/Brackets/Tags",
-      "scope": [
-        "punctuation.definition.block",
-        "punctuation.definition.tag"
-      ],
+      "scope": ["punctuation.definition.block", "punctuation.definition.tag"],
       "settings": {
         "foreground": "#F3EFF5"
       }
@@ -656,10 +618,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": [
-        "support.type",
-        "support.class"
-      ],
+      "scope": ["support.type", "support.class"],
       "settings": {
         "foreground": "#15C2CB"
       }
@@ -770,9 +729,7 @@
     },
     {
       "name": "[Markdown] text ",
-      "scope": [
-        "meta.paragraph.markdown"
-      ],
+      "scope": ["meta.paragraph.markdown"],
       "settings": {
         "foreground": "#F3EFF5"
       }

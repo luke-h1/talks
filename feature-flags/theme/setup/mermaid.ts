@@ -1,10 +1,10 @@
-import type { MermaidOptions } from '@slidev/types'
-import { defineMermaidSetup } from '@slidev/types'
+import type { MermaidOptions } from "@slidev/types";
+import { defineMermaidSetup } from "@slidev/types";
 
 export default defineMermaidSetup(() => {
   // eslint-disable-next-line prefer-const
   let injection_return: MermaidOptions = {
-    theme: 'forest',
+    theme: "forest",
     themeVariables: {
       // General theme variables
       noteBkgColor: "#181d29",
@@ -28,8 +28,8 @@ export default defineMermaidSetup(() => {
       polygon.labelBox + text {
         display: none;
       }
-    `
-  }
+    `,
+  };
 
-  return injection_return
-})
+  return injection_return;
+});

@@ -54,11 +54,11 @@ helloMsg: Hello!
 name: <name>
 imageSrc: <image url>
 job: <job title>
-line1: 
-line2: 
-social1: 
-social2: 
-social3: 
+line1:
+line2:
+social1:
+social2:
+social3:
 ---
 ```
 
@@ -100,7 +100,6 @@ layout: default
 background: <image url or HEX or rbg or rgba> (optional)
 ---
 ```
-
 
 ## Cusomizations
 

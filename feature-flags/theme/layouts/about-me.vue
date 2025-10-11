@@ -1,28 +1,27 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { handleBackground } from '@slidev/client/layoutHelper'
+import { computed } from "vue";
+import { handleBackground } from "@slidev/client/layoutHelper";
 
-  const props = defineProps<{
-    imageSrc?: string
-    helloMsg?: string
-    name?: string
-    job?: string
-    line1?: string
-    line2?: string
-    email?: string
-    social1?: string
-    social2?: string
-    social3?: string
-  }>()
+const props = defineProps<{
+  imageSrc?: string;
+  helloMsg?: string;
+  name?: string;
+  job?: string;
+  line1?: string;
+  line2?: string;
+  email?: string;
+  social1?: string;
+  social2?: string;
+  social3?: string;
+}>();
 
-  const style = computed(() => handleBackground(props.imageSrc, false))
+const style = computed(() => handleBackground(props.imageSrc, false));
 </script>
 
 <template>
   <div class="slidev-layout about-me p-0">
     <div class="flex h-full">
-      <div class="w-1/2 h-full flex flex-col justify-end" :style="style">
-      </div>
+      <div class="w-1/2 h-full flex flex-col justify-end" :style="style"></div>
       <div class="w-1/2 flex flex-col justify-between items-end px-8 py-16">
         <h1 v-if="helloMsg" class="flex">{{ helloMsg }}</h1>
 
@@ -45,4 +44,3 @@
     </div>
   </div>
 </template>
-
