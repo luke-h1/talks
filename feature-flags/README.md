@@ -5,3 +5,5 @@ Resources:
 - self hosted redis Next.js example - https://github.com/luke-h1/ab-test-next
 - posthog feature flag A/B test example - https://github.com/luke-h1/flag-abtest-example
 - Slides - https://feature-flags-24.talks.lhowsam.com
+
+unzip the gifs before deploying/starting the repo
