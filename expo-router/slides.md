@@ -116,6 +116,10 @@ src: ./pages/react-navigation-pt8.md
 src: ./pages/react-navigation-pt9.md
 ---
 
+---
+src: ./pages/expo-router.md
+---
+
 <!--
 terminonology:
   Stack + Tab Navigation
