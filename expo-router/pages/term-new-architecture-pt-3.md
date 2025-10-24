@@ -6,7 +6,6 @@ transition: fade
   v-motion
   :initial="{ x: -80 }"
   :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
   :leave="{ x: 1000 }"
   style="font-size: 4rem; font-weight: 800; padding: 0.5rem; display: inline-block; line-height: 1.2;"
 >

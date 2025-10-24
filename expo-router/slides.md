@@ -20,6 +20,10 @@ mdc: true
 src: ./pages/start.md
 ---
 
+<!--
+TODO: add TOC, add deep-linking terminology
+-->
+
 ---
 src: ./pages/intro.md
 ---
@@ -120,8 +124,48 @@ src: ./pages/react-navigation-pt9.md
 src: ./pages/expo-router.md
 ---
 
+---
+src: ./pages/expo-router-pt2.md
+---
+
+---
+src: ./pages/expo-router-pt3.md
+---
+
+---
+src: ./pages/expo-router-pt4.md
+---
+
+---
+src: ./pages/expo-router-pt5.md
+---
+
+---
+src: ./pages/expo-router-pt6.md
+---
+
+---
+src: ./pages/expo-router-pt7.md
+---
+
+---
+src: ./pages/expo-router-pt8.md
+---
+
+---
+src: ./pages/expo-router-pt9.md
+---
+
+---
+src: ./pages/expo-router-pt10.md
+---
+
+---
+src: ./pages/expo-router-pt11.md
+---
+
 <!--
-terminonology:
+terminology:
   Stack + Tab Navigation
   react-native-screens
   new architecture
