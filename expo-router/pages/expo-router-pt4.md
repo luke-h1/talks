@@ -17,7 +17,7 @@ transition: fade
 import { Link } from "expo-router";
 
 export default function HomeScreen() {
-  return <Link href="/conf">Frontend North 2026? 👀</Link>;
+  return <Link href="/fes">Frontend sheff</Link>;
 }
 ```
 

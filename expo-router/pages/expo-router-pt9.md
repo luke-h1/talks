@@ -13,11 +13,11 @@ transition: fade
 </div>
 
 <!--
-If you're building an application, you usually need to have some api to talk to. And if you've used full-stack frameworks such as Next.js or remix, you know how the boundary between client and server just melts away by being able to create API routes and server functions, without having to go through the trouble of deploying infrastructure, creating a new API, setting up certificates etc. etc.
+If you're building an application, you usually need to have some api to talk to. And if you've used full-stack frameworks such as Next.js or remix, you know how the boundary between client and server just melts away by being able to create API routes and server functions, without having to go through the trials and tribulations of deploying infrastructure, creating a new API, setting up certificates etc. etc.
 -->
 
-````md magic-move {lines: true}
 ```tsx
+// app/page.tsx (Next.js)
 function HomePage() {
   const response = await fetch("http://localhost:3000/api/event");
   const data = await response.json();
@@ -30,7 +30,7 @@ function HomePage() {
 ```
 
 ```tsx
-// app/api/event/route.ts
+// app/api/event/route.ts (Next.js)
 import { NextRequest } from "next/server";
 
 export async function GET(request: NextRequest) {
@@ -40,4 +40,3 @@ export async function GET(request: NextRequest) {
   });
 }
 ```
-````

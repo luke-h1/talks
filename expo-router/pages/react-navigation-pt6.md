@@ -36,7 +36,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 const Tab = createBottomTabNavigator<TabParamList>();
 ```
 
-```tsx {13-16}
+```tsx {3,5,8,10,13-15}
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 const Tab = createBottomTabNavigator<TabParamList>();

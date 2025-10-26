@@ -18,5 +18,5 @@ transition: fade
 </div>
 
 <!--
-Expo for web really is turning the heat up on the React framework and pushing it to its limits. Expo is powering very popular apps like BlueSky, burger king, that not only run great on iphone or android, but on web too. And with expo router, it's helping team use modern React patterns like server driven UI, server functions and more. Proving that you can write once run everywhere.
+Expo for web really is turning the heat up on the React framework and pushing it to its limits. Expo is powering very popular apps like BlueSky, burger king, that not only run great on iphone or android, but on web too. And with expo router, it's helping team use modern web patterns like server driven UI, react server functions. Proving that you can write once run everywhere.
 -->

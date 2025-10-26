@@ -22,6 +22,9 @@ src: ./pages/start.md
 
 <!--
 TODO: add TOC, add deep-linking terminology
+
+Add client side representation of react-navigation (screenshot)
+talk about how its dificult to deploy your own SSR server
 -->
 
 ---
@@ -113,6 +116,22 @@ src: ./pages/react-navigation-pt-7.md
 ---
 
 ---
+src: ./pages/react-navigation-web.md
+---
+
+---
+src: ./pages/react-navigation-web-pt2.md
+---
+
+---
+src: ./pages/react-navigation-web-pt3.md
+---
+
+---
+src: ./pages/react-navigation-web-pt4.md
+---
+
+---
 src: ./pages/react-navigation-pt8.md
 ---
 
@@ -161,7 +180,55 @@ src: ./pages/expo-router-pt10.md
 ---
 
 ---
+src: ./pages/expo-server-plat.md
+---
+
+---
 src: ./pages/expo-router-pt11.md
+---
+
+---
+src: ./pages/expo-router-pt12.md
+---
+
+---
+src: ./pages/expo-router-pt13.md
+---
+
+---
+src: ./pages/expo-router-pt14.md
+---
+
+---
+src: ./pages/expo-router-pt15.md
+---
+
+---
+src: ./pages/expo-router-pt16.md
+---
+
+---
+src: ./pages/expo-router-pt17.md
+---
+
+---
+src: ./pages/expo-router-pt18.md
+---
+
+---
+src: ./pages/expo-router-pt19.md
+---
+
+---
+src: ./pages/expo-router-pt20.md
+---
+
+---
+src: ./pages/expo-router-pt21.md
+---
+
+---
+src: ./pages/expo-router-pt22.md
 ---
 
 <!--
