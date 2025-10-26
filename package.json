@@ -1,9 +1,23 @@
 {
   "devDependencies": {
+    "ffmpeg-static": "^5.2.0",
     "prettier": "^3.6.2",
-    "prettier-plugin-slidev": "^1.0.5"
+    "prettier-plugin-slidev": "^1.0.5",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.6"
   },
   "scripts": {
     "prettier": "prettier --write ."
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,scss,html}": [
+      "prettier --write"
+    ],
+    "*.{ts,tsx,js,jsx}": [
+      "eslint"
+    ],
+    "*.{mov,mp4}": [
+      "node scripts/compress-videos.js"
+    ]
   }
 }
