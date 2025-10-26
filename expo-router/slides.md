@@ -6,6 +6,8 @@ fonts:
   serif: Robot Slab
   mono: Fira Code
 css: unocss
+stylesheets:
+  - ./style.css
 
 info: |
   ## Expo Router
@@ -21,15 +23,26 @@ src: ./pages/start.md
 ---
 
 <!--
-TODO: 
+TODO:
 add TOC,
 add deep-linking terminology
 add server driven ui terminology
 add conclusion slide
-
+replace tweet screenshot with tweet comp
 Add client side representation of react-navigation (screenshot) ✅
 talk about how its dificult to deploy your own SSR server ✅
 -->
+
+<!-- make it display presenter notes full screen instead of just on the right -->
+<style>
+.slidev-presenter .grid-container {
+  grid-template-areas:
+    "top top top"
+    "note note main"
+    "note note next"
+    "bottom bottom bottom" !important;
+}
+</style>
 
 ---
 src: ./pages/intro.md
@@ -88,7 +101,11 @@ src: ./pages/term-new-architecture-pt-3.md
 ---
 
 ---
-src: ./pages/navigation.md
+src: ./pages/react-navigation-pt0.md
+---
+
+---
+src: ./pages/bk-mention.md
 ---
 
 ---

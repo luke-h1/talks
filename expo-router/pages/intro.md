@@ -34,11 +34,6 @@ class: "relative"
   </div>
 </div>
 
-<!--
-Hey, I'm Luke. I'm a SWE working at Sporting Life / TimeForm. Sporting news website. The websites and apps we build provide things such as real time statistics, data visualization of popular sports like football, cricket, horse-racing as well as editorial content.
-Most recently I've been collaborating with them alongside Software Mansion (react native consultancy) to help them migrate their existing native apps (kotlin, Swift) over to React Native along with native modules where needed
--->
-
 <div class="absolute bottom-24 right-12 flex items-center gap-6 text-base">
   <div v-click="1" class="flex flex-col gap-3">
     <div class="px-4 py-2 bg-purple-600/30 border border-purple-400/50 rounded-lg backdrop-blur flex items-center gap-2">
@@ -60,3 +55,8 @@ Most recently I've been collaborating with them alongside Software Mansion (reac
     <span class="font-mono font-semibold text-xl">React Native + Expo ❤️</span>
   </div>
 </div>
+
+<!--
+Hey, I'm Luke. I'm a SWE working at Sporting Life / TimeForm. Sporting news website. The websites and apps we build provide things such as real time statistics, data visualization of popular sports like football, cricket, horse-racing as well as editorial content.
+Most recently I've been collaborating with them alongside Software Mansion (react native consultancy) to help them migrate their existing native apps (kotlin, Swift) over to React Native along with native modules where needed
+-->

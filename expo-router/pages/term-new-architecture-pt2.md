@@ -13,10 +13,10 @@ transition: fade
   <span style="font-size: 2rem; margin-left: 1rem;">🚀 🧑‍🚀</span>
 </div>
 
-<!--
-The new architecture (called fabric) is really simple. The react native team grabbed the bridge and ripped it out. So now instead of having to pass around json messages, deal with async vs sync threads, we can call the native code directly from c++ function. This means JS and native threads can be insync with each other and allows them both to share memory
--->
-
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
   <img src="/assets/new-arch.png" alt="Fabric" style="width: 70%; height: auto; object-fit: contain;" />
 </div>
+
+<!--
+The new architecture (called fabric) is really simple. The react native team grabbed the bridge and ripped it out. So now instead of having to pass around json messages, deal with async vs sync threads, we can call the native code directly from c++ function. This means JS and native threads can be insync with each other and allows them both to share memory
+-->

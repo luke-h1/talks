@@ -12,10 +12,6 @@ transition: fade
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Servers</span>🤔
 </div>
 
-<!--
-If you're building an application, you usually need to have some api to talk to. And if you've used full-stack frameworks such as Next.js or remix, you know how the boundary between client and server just melts away by being able to create API routes and server functions, without having to go through the trials and tribulations of deploying infrastructure, creating a new API, setting up certificates etc. etc.
--->
-
 ```tsx
 // app/page.tsx (Next.js)
 function HomePage() {
@@ -40,3 +36,7 @@ export async function GET(request: NextRequest) {
   });
 }
 ```
+
+<!--
+If you're building an application, you usually need to have some api to talk to. And if you've used full-stack frameworks such as Next.js or remix, you know how the boundary between client and server just melts away by being able to create API routes and server functions, without having to go through the trials and tribulations of deploying infrastructure, creating a new API, setting up certificates etc. etc.
+-->

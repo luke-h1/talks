@@ -12,11 +12,6 @@ transition: fade
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Stack support</span> 
 </div>
 
-<!--
- Much like the tab param list, we need to create a stack param list. This lists all the available stacks and screens that can be navigation to in our app. This type allows TypeScript to know what routes are defined in this navigator as
- * well as what properties (if any) they might take when navigating to them. So for our example we know our author and article screens need to be passed an id param to fetch the author or the article. Next we need to create a helper type to get the stack props for a given screen. Now we can create our stack navigator component. We're going to call it AppStack and it will contain the tab stack, the author screen and the article screen. You might be asking yourself, why are our screens not just in the tab stack? Well, because we want to be able to navigate to the author screen from the article screen, and the article screen from the home screen. They need to be globally accessible within the app. Finally we need to create a linking configuration for our app. This is used to handle deep linking and navigation to our app from other apps or websites. Finally we need to create the app navigator component which will contain the app stack and the linking configuration as well as some styling. Finally we can register our navigation component as the root component of our app.
--->
-
 ````md magic-move {lines: true}
 ```tsx
 export type AppStackParamList = {
@@ -143,3 +138,8 @@ export default function App() {
 }
 ```
 ````
+
+<!--
+Much like the tab param list, we need to create a stack param list. This lists all the available stacks and screens that can be navigation to in our app. This type allows TypeScript to know what routes are defined in this navigator as
+ * well as what properties (if any) they might take when navigating to them. So for our example we know our author and article screens need to be passed an id param to fetch the author or the article. Next we need to create a helper type to get the stack props for a given screen. Now we can create our stack navigator component. We're going to call it AppStack and it will contain the tab stack, the author screen and the article screen. You might be asking yourself, why are our screens not just in the tab stack? Well, because we want to be able to navigate to the author screen from the article screen, and the article screen from the home screen. They need to be globally accessible within the app. Finally we need to create a linking configuration for our app. This is used to handle deep linking and navigation to our app from other apps or websites. Finally we need to create the app navigator component which will contain the app stack and the linking configuration as well as some styling. Finally we can register our navigation component as the root component of our app.
+-->

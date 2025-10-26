@@ -12,10 +12,6 @@ transition: fade
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">TypeScript support</span> 
 </div>
 
-<!--
-TypeScript support doesn't come out of the box with React Navigation. What I mean by that is no typescript inference happens when you create a new screen or stack or use the routing hooks to navigate between screens. You have to manually add types to your code to register your screens and routes.
--->
-
 ````md magic-move {lines: true}
 ```tsx
 // App.tsx - Untyped React Navigation Stack
@@ -81,3 +77,7 @@ export default function BlogPostScreen() {
 }
 ```
 ````
+
+<!--
+TypeScript support doesn't come out of the box with React Navigation. What I mean by that is no typescript inference happens when you create a new screen or stack or use the routing hooks to navigate between screens. You have to manually add types to your code to register your screens and routes.
+-->

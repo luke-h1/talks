@@ -13,10 +13,6 @@ layout: two-cols
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">AI</span>
 </div>
 
-<!--
-Now I don't know about you, but I find it pretty boring that our cool AI assistant just streams down markdown. Since it's halloween tomorrow, I want to know what horror movies are playing in sheffield. Chat GPT was pretty disappointing, it just streamed back markdown. Perplexity did a bit better, they display the movie poster as well as a description of the movie which is a bit better but it's still not very engaging right? Well now that we can use server functions, let's build something better
--->
-
 <div style="display: flex; flex-direction: row; gap: 2rem; align-items: center;">
 
 <img src='/assets/chat-gpt.webp' alt="ChatGPT" style="width: 400px; height: 400px; object-fit: contain;" />
@@ -28,3 +24,7 @@ Now I don't know about you, but I find it pretty boring that our cool AI assista
 />
 </v-click>
 </div>
+
+<!--
+Now I don't know about you, but I find it pretty boring that our cool AI assistant just streams down markdown. Since it's halloween tomorrow, I want to know what horror movies are playing in sheffield. Chat GPT was pretty disappointing, it just streamed back markdown. Perplexity did a bit better, they display the movie poster as well as a description of the movie which is a bit better but it's still not very engaging right? Well now that we can use server functions, let's build something better
+-->

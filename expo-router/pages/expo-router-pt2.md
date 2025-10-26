@@ -14,20 +14,8 @@ layout: center
 </div>
 
 <!--
-  Expo router is a file based routing framework. It's compatible with Android, IOS, Web, TVos for apple, and even Vega OS which is Amazon's new linux based TV OS
- -->
-
-<div style="display: flex; flex-direction: row; gap: 1rem; align-items: center;">
-  <div class="i-logos-android-icon w-25 h-25" v-click />
-  <img src='/assets/apple-logo.png' alt='apple logo' style='width: 100px; height: 100px;' v-click />
-  <div class="i-logos-chrome w-25 h-25" v-click />
-  <img src='/assets/tv-os-logo.png' alt='apple tv os logo' style='width: 100px; height: 100px;' v-click />
-  <img src='/assets/vegas-os.png' alt='vegas tv os logo' style='width: 100px; height: 100px;' v-click />
-</div>
-
-<!--
 what is expo router?
- benefits 
+ benefits
  expo-web
  dom components
  file-based navigation
@@ -51,7 +39,7 @@ what is expo router?
   * support SSG
   * excellent support for web (ssg, spa, ssr soon,)
   * react server functions
-  * they've fully implemented everything react-navigation does, plus more - they're going beyond it 
+  * they've fully implemented everything react-navigation does, plus more - they're going beyond it
 
   cons:
   * not as mature as react-navigation
@@ -61,4 +49,16 @@ what is expo router?
 
 takeaway:
   * next releases will become more mature
+-->
+
+<div style="display: flex; flex-direction: row; gap: 1rem; align-items: center;">
+  <div class="i-logos-android-icon w-25 h-25" v-click />
+  <img src='/assets/apple-logo.png' alt='apple logo' style='width: 100px; height: 100px;' v-click />
+  <div class="i-logos-chrome w-25 h-25" v-click />
+  <img src='/assets/tv-os-logo.png' alt='apple tv os logo' style='width: 100px; height: 100px;' v-click />
+  <img src='/assets/vegas-os.png' alt='vegas tv os logo' style='width: 100px; height: 100px;' v-click />
+</div>
+
+<!--
+Expo router is a file based routing framework. It's compatible with Android, IOS, Web, TVos for apple, and even Vega OS which is Amazon's new linux based TV OS
 -->

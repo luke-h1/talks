@@ -12,9 +12,6 @@ transition: fade
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">The app</span> 
 </div>
 
-<!--
-This is the app we'll be building. It's a static site that displays a list of blog posts from Sanity which is a headless CMS. There is one app I've left out of building which is the movie app. And I want you to have a think about why we can't build that with react navigation while we're going thru the demo. There'll be a few hints at the end.
--->
 <div style="display: flex; flex-direction: column; align-items: center; gap: 2rem; margin-top: 2rem;">
   <div style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
     <div style="display: flex; flex-direction: column; align-items: center;">
@@ -25,3 +22,7 @@ This is the app we'll be building. It's a static site that displays a list of bl
     </div> -->
   </div>
 </div>
+
+<!--
+Now that we know about react navigation, This is the app we'll be building. It's a static site that displays a list of blog posts from Sanity which is a headless CMS. There is one app I've left out of building which is the movie app. And I want you to have a think about why we can't build that with react navigation while we're going thru the demo. There'll be a few hints at the end.
+-->

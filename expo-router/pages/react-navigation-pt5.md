@@ -13,10 +13,6 @@ layout: center
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Nav Utilities</span> 
 </div>
 
-<!--
-The navigation utilities file is the glue that holds your React Navigation setup together. It's about 200 lines of code that handles everything from Android back button behavior to navigation persistence and type-safe navigation helpers.
--->
-
 <div style="margin-top: 2rem; font-size: 1.1rem; line-height: 1.8;">
   <div v-click style="margin-top: 2rem;">
     <p style="margin-bottom: 1rem;">Source code: github.com/luke-h1/react-navigation-expo-blog/blob/main/src/navigationUtilities.ts</p>

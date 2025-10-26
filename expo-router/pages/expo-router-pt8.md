@@ -14,11 +14,6 @@ transition: fade
   </span> 
 </div>
 
-<!--
-Expo team released something called DOM components. Where you simply mark files with a directive called 'use dom' and this will
-render them in a highly optimized web view. This is a huge win for react-native apps as it allows you to incrementally adopt web components in your native app. Let's say we're working at a company that has a big web design system, you can now just start using it in your native app without having to rewrite everything.
--->
-
 ```tsx
 "use dom";
 
@@ -35,3 +30,8 @@ export default function MyAwesomeScreen() {
   );
 }
 ```
+
+<!--
+Expo team released something called DOM components. Where you simply mark files with a directive called 'use dom' and this will
+render them in a highly optimized web view. This is a huge win for react-native apps as it allows you to incrementally adopt web components in your native app. Let's say we're working at a company that has a big web design system, you can now just start using it in your native app without having to rewrite everything.
+-->
