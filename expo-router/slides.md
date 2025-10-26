@@ -21,10 +21,14 @@ src: ./pages/start.md
 ---
 
 <!--
-TODO: add TOC, add deep-linking terminology
+TODO: 
+add TOC,
+add deep-linking terminology
+add server driven ui terminology
+add conclusion slide
 
-Add client side representation of react-navigation (screenshot)
-talk about how its dificult to deploy your own SSR server
+Add client side representation of react-navigation (screenshot) ✅
+talk about how its dificult to deploy your own SSR server ✅
 -->
 
 ---

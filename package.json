@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "devDependencies": {
     "ffmpeg-static": "^5.2.0",
     "prettier": "^3.6.2",

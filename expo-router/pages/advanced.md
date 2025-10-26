@@ -127,7 +127,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="663,206,261,_,-15">
+<v-drag pos="483,13,261,_,-15">
   <div text-center text-3xl border border-main rounded>
     Double-click me!
   </div>
