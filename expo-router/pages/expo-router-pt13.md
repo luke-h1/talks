@@ -15,11 +15,11 @@ layout: center
 
 <div style="display: flex; flex-direction: row; gap: 2rem; align-items: center;">
 <ul>
-  <li v-click>Server driven UI to render the movies natively</li>
+  <li v-click>Server driven UI</li>
   <li v-click>AI integration</li>
   </ul>
 </div>
 
 <!--
-Now that we've identified our problem lets think about how we could improve the experience that we just saw with perplexity.
+Now that we've identified our problem lets think about how we could improve the experience that we just saw with perplexity. We need a server driven ui to  have a high degree of customization of the UI without having to redeploy our app or website each time. Ai integration to get feature parity with chatgpt and perplexity.
 -->

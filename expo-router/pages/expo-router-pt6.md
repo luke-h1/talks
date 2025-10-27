@@ -15,7 +15,6 @@ layout: center
 
 <div style="margin-top: 2rem; font-size: 1.5rem;">
   <ul>
-    <li v-click>Server Driven UI 🧪</li>
     <li v-click>Different rendering patterns 🎨</li>
     <li v-click>Modern CSS 🎨</li>
     <li v-click>React 19+ 🧑‍🚀</li>
@@ -24,5 +23,10 @@ layout: center
 </div>
 
 <!--
-Expo web allows you to build delightful web experiences with things like server driven UI for highly customized and dynamic experiences. Different rendering patterns like SSG, (expo router team are working on SSR), modern css like tailwind, sass, styled components and react 19+ features like suspense boundaries, server functions and much more that we don't have time to cover today. Very accessible too, out of the box it comes with very good support for aria-labels, focus management, keyboard navigation and if anything is lacking, the react native apis are very oriented towards accessibility so its very easy to just whack a prop on your components to make them more accessible.
+Expo web allows you to build delightful web experiences. 
+* Different rendering patterns , 
+* modern css like tailwind, sass, styled components  
+* Latest React features like suspense boundaries, server functions and much more that we don't have time to cover today. 
+
+* Very accessible too, out of the box it comes with very good support for aria-labels, focus management, keyboard navigation and if anything is lacking, the react native apis are very oriented towards accessibility so its very easy to patch things your components up if needed
 -->

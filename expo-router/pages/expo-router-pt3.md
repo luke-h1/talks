@@ -63,11 +63,7 @@ layout: two-cols
 </div>
 
 <!--
-Routes are defined as files within a special folder called `app`, allowing you to seamlessly use the file system as the source of truth for your routing needs. For example, the file structure above would correspond to the following routes:
+Routes are defined as files within a special folder called `app`, allowing you to seamlessly use the file system as the source of truth for your routing needs. So for example the home screen maps to /home, index files map to / and we also have layout files in order to wrap our screens in a layout.
 
-* /
-* /home
-* /profile/friends
-
-This feels a lot like a web router right? These routes adhere to the same syntax as a web URL would, which thinking about web and supporting it a lot easier.
+* The beauty about this too is deep linking support is handled for us out of the box - we dont need to do anything
 -->

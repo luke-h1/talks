@@ -36,7 +36,8 @@ The old architecture has a few issues that make it less than ideal.
 
 The first issue is that all communication must go through the bridge. This is a bottleneck because it adds latency to the communication between the JS thread and the native thread.
 
-The second issue is that the data must be serialized/deserialized constantly. This is a performance issue because it adds overhead to the communication between the JS thread and the native thread.
+The second issue is that the data must be serialized/deserialized constantly. Unmarshalling and marshalling data is expensive
 
-The third issue is that everything is async. This is a performance issue because it adds latency to the communication between the JS thread and the native thread. Meaning it can result in skipped frames and UI jank.
+The third issue is that everything is async. You might think this is a good thing, but it's not. What do we have to do with async code? We have to wait for it to complete. And if messages were sent too late 
+it could be missed by the js microtask queue and result in FPS drop and UI jank. It was also very difficult to debug issues across the bridge, not only for library authors but for consumers too
 -->

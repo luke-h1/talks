@@ -19,7 +19,7 @@ transition: fade
 </div>
 
 <!--
-React Navigation is one of the most popular and oldest ways of handling routing in React Native. It's used by apps
+We're going to be using React Navigation for our first app & its one of the most popular and oldest ways of handling routing in React Native. It's used by apps
   such as BlueSky, NFL, CoinBase etc. And these companies also use it for their web apps. They use react native-web along with
   react navigation to build a unified experience across all platforms. It's a very mature library and coincidentally expo-router uses it under the hood.
 -->

@@ -6,8 +6,6 @@ layout: center
 # Setting Up the AI Context
 
 ```tsx
-"use server";
-
 import { createAI, getMutableAIState, streamUI } from "@ai-sdk/rsc";
 import { openai } from "@ai-sdk/openai";
 import { z } from "zod";

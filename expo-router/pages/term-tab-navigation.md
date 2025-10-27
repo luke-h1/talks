@@ -28,7 +28,6 @@ level: 2
 </div>
 
 <!--
-So here we have two tabs - the home tab and the authors tab. When we are on the home tab, we render the home stack and 
- when we are on the authors tab, we render the authors stack. Generally tabs can contain multiple screens or stacks, and 
- stacks can belong to many tabs. So we can have a stack/screen that belongs to the home tab and the authors tab, and a stack/screen that belongs to the home tab only.
+So let's take our blog application as an example. We have two tabs - the home tab and the authors tab. When we are on the home tab, we render the home screen and 
+ when we are on the authors tab, we render the authors screen. Generally tabs can contain multiple screens or stacks
 -->

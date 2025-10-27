@@ -26,12 +26,13 @@ src: ./pages/start.md
 TODO:
 add TOC,
 add deep-linking terminology
-add server driven ui terminology
+add server driven ui and server functions before we dive into movie app
 add conclusion slide
-replace tweet screenshot with tweet comp
+jetpack compose + swift ui via expo ui as part of movie app
+
+replace tweet screenshot with tweet comp ✅
 Add client side representation of react-navigation (screenshot) ✅
 talk about how its dificult to deploy your own SSR server ✅
-jetpack compose + swift ui via expo ui
 -->
 
 <!-- make it display presenter notes full screen instead of just on the right -->
@@ -110,6 +111,10 @@ src: ./pages/term-new-architecture-pt-3.md
 ---
 
 ---
+src: ./pages/term-deep-linking.md
+---
+
+---
 src: ./pages/react-navigation-pt0.md
 ---
 
@@ -134,15 +139,15 @@ src: ./pages/react-navigation-pt4.md
 ---
 
 ---
-src: ./pages/react-navigation-pt5.md
----
-
----
 src: ./pages/react-navigation-pt6.md
 ---
 
 ---
 src: ./pages/react-navigation-pt-7.md
+---
+
+---
+src: ./pages/deeplink-support.md
 ---
 
 ---
@@ -226,6 +231,18 @@ src: ./pages/expo-router-pt13.md
 ---
 
 ---
+src: ./pages/server-driven-ui.md
+---
+
+---
+src: ./pages/server-driven-ui-pt2.md
+---
+
+---
+src: ./pages/server-funcs.md
+---
+
+---
 src: ./pages/expo-router-pt14.md
 ---
 
@@ -259,6 +276,14 @@ src: ./pages/expo-router-pt21.md
 
 ---
 src: ./pages/expo-router-pt22.md
+---
+
+---
+src: ./pages/conclusion.md
+---
+
+---
+src: ./pages/thanks.md
 ---
 
 <!--
@@ -322,42 +347,3 @@ expo router
 takeaway:
   * next releases will become more mature
 -->
-
----
-src: ./pages/navigation.md
----
-
----
-src: ./pages/code.md
----
-
----
-src: ./pages/components.md
----
-
----
-src: ./pages/themes.md
----
-
----
-src: ./pages/animations.md
----
-
----
-src: ./pages/advanced.md
----
-
----
-src: ./pages/imported-slides.md
----
-
----
-layout: center
-class: text-center
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
-
-<PoweredBySlidev mt-10 />

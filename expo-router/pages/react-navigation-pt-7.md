@@ -21,7 +21,7 @@ export type AppStackParamList = {
 };
 ```
 
-```tsx
+```tsx {2|3-4|7-8}
 export type AppStackParamList = {
   Tabs: NavigatorScreenParams<TabParamList>;
   Author: { id: string };
@@ -33,21 +33,8 @@ export type AppStackScreenProps<T extends keyof AppStackParamList> =
 ```
 
 ```tsx
-export function ArticleScreen({
-  route,
-}: {
-  route: { params: { id: string } };
-}) {
-  return (
-    <View>
-      <Text>Article: {route.params.id}</Text>
-    </View>
-  );
-}
-```
-
-```tsx
 export function AuthorScreen({ route }: AppStackScreenProps<"Author">) {
+  // ^ { route: { params: { id: string } } }
   return (
     <View>
       <Text>Author: {route.params.id}</Text>
@@ -78,68 +65,20 @@ const AppStack = () => {
 };
 ```
 
-```tsx
-/**
- * Deep linking config
- */
-
-import type { LinkingOptions } from "@react-navigation/native";
-
-const linking = {
-  prefixes: [
-    Linking.createURL("/"),
-    "yourappscheme://",
-    "https://yourdomain.com",
-  ],
-  config: {
-    screens: {
-      Tabs: {
-        path: "",
-        screens: {
-          Home: "",
-          Authors: "authors",
-        },
-      },
-      Author: "author/:id",
-      Article: "article/:id",
-    },
-  },
-} satisfies LinkingOptions<AppStackParamList>;
 ```
 
-```tsx
-export const AppNavigator = (props: NavigationProps) => {
-  return (
-    <NavigationContainer
-      theme={"dark"}
-      linking={linking}
-      {...props}
-      onReady={() => {
-        SplashScreen.hideAsync();
-      }}
-    >
-      <View style={styles.container}>
-        <AppStack />
-      </View>
-    </NavigationContainer>
-  );
-};
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
-```
-
-```tsx
-export default function App() {
-  return <AppNavigator />;
-}
 ```
 ````
 
 <!--
-Much like the tab param list, we need to create a stack param list. This lists all the available stacks and screens that can be navigation to in our app. This type allows TypeScript to know what routes are defined in this navigator as
- * well as what properties (if any) they might take when navigating to them. So for our example we know our author and article screens need to be passed an id param to fetch the author or the article. Next we need to create a helper type to get the stack props for a given screen. Now we can create our stack navigator component. We're going to call it AppStack and it will contain the tab stack, the author screen and the article screen. You might be asking yourself, why are our screens not just in the tab stack? Well, because we want to be able to navigate to the author screen from the article screen, and the article screen from the home screen. They need to be globally accessible within the app. Finally we need to create a linking configuration for our app. This is used to handle deep linking and navigation to our app from other apps or websites. Finally we need to create the app navigator component which will contain the app stack and the linking configuration as well as some styling. Finally we can register our navigation component as the root component of our app.
+Much like the tab param list, we need to create a stack param list. This lists all the available screens that our app can route to. 
+
+* First we need to registr our tab with the navigator
+
+* So for our example we know our author and article screens need to be passed an id param to fetch them from the cms
+
+*  Next we need to create a helper type to get the stack props for a given screen. This makes sure that all the parameter that we destructure in our screens are typed correctly
+
+
+* And thats pretty much it, we can go ahead and render our stack
 -->

@@ -73,5 +73,5 @@ app.use(async (ctx) => {
 ````
 
 <!--
-Now it's not impossible to build your own SSR server with react navigation, We can achieve this with a express server. First we need to need to get the application registry which will give us the element we want to render and any css associated with it. Then we need to render the element to a string and also pass that to the server container, which is responsible for rendering our app on the server with the correct navigation state. Finally we render the css to a static string and return the html to the browser.
+Now it's not impossible to build your own SSR server with react navigation, if you've been around long enough you probably recognize this pattern. But it's a lot of work and it's not something that's well documented.
 -->
