@@ -6,7 +6,8 @@
     "build": "slidev build",
     "dev": "slidev",
     "format": "slidev format",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "vc --prod -f"
   },
   "dependencies": {
     "@slidev/cli": "^0.40.6",

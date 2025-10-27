@@ -13,7 +13,7 @@ layout: center
   Terminology
 </div>
 
-<div style="margin-top: 2rem; max-width: 1200px;" v-click>
+<div style="margin-top: 2rem; max-width: 1200px;">
     <img src="/assets/react-native.webp" alt="React" style="height: 400px; object-fit: contain;" />
 </div>
 

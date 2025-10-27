@@ -4,87 +4,38 @@ transition: fade
 class: "text-center"
 ---
 
-<GradientHeader title="Resources" align="center" />
+<!-- movie app: https://testflight.apple.com/join/xsPPKyKN -->
 
-<div class="mt-2 grid grid-cols-2 gap-3 max-w-3xl mx-auto">
-  <!-- Movie App IOS -->
-  <div class="flex flex-col items-center gap-1.5 p-3 bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-blue-400/30 rounded-xl backdrop-blur">
-    <img 
-      src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://exp-movies.lhowsam.com" 
-      alt="Movie App iOS QR Code" 
-      class="w-20 h-20 rounded-lg shadow-lg bg-white p-1"
-    />
-    <div class="text-center">
-      <h3 class="text-base font-bold mb-0.5">Movie App iOS</h3>
-      <a 
-        href="https://exp-movies.lhowsam.com" 
-        target="_blank" 
-        class="flex items-center justify-center gap-1.5 text-xs opacity-80 hover:opacity-100 transition"
-      >
-        <div class="i-carbon-mobile w-3 h-3" />
-      </a>
-    </div>
-  </div>
+<!-- blog app: https://testflight.apple.com/join/HXyXBnV1 -->
 
-  <!-- Blog App IOS -->
-  <div class="flex flex-col items-center gap-1.5 p-3 bg-gradient-to-br from-purple-600/20 to-pink-600/20 border border-purple-400/30 rounded-xl backdrop-blur">
-    <img 
-      src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://exp-blog.lhowsam.com" 
-      alt="Blog App iOS QR Code" 
-      class="w-20 h-20 rounded-lg shadow-lg bg-white p-1"
-    />
-    <div class="text-center">
-      <h3 class="text-base font-bold mb-0.5">Blog App iOS</h3>
-      <a 
-        href="https://exp-blog.lhowsam.com" 
-        target="_blank" 
-        class="flex items-center justify-center gap-1.5 text-xs opacity-80 hover:opacity-100 transition"
-      >
-        <div class="i-carbon-mobile w-3 h-3" />
-      </a>
-    </div>
-  </div>
+<GradientHeader title="Resources (ios + web only)" align="center" />
 
-  <!-- Movie App Web -->
-  <div class="flex flex-col items-center gap-1.5 p-3 bg-gradient-to-br from-green-600/20 to-teal-600/20 border border-green-400/30 rounded-xl backdrop-blur">
-    <img 
-      src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://movies.lhowsam.com" 
-      alt="Movie App Web QR Code" 
-      class="w-20 h-20 rounded-lg shadow-lg bg-white p-1"
-    />
-    <div class="text-center">
-      <h3 class="text-base font-bold mb-0.5">Movie App Web</h3>
-      <a 
-        href="https://movies.lhowsam.com" 
-        target="_blank" 
-        class="flex items-center justify-center gap-1.5 text-xs opacity-80 hover:opacity-100 transition"
-      >
-        <div class="i-carbon-screen w-3 h-3" />
-      </a>
-    </div>
-  </div>
+<div style="display: flex; align-items: center; justify-content: center; gap: 2rem; margin: 2rem 0;">
 
-  <!-- Blog App Web -->
-  <div class="flex flex-col items-center gap-1.5 p-3 bg-gradient-to-br from-orange-600/20 to-red-600/20 border border-orange-400/30 rounded-xl backdrop-blur">
-    <img 
-      src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://blog.lhowsam.com" 
-      alt="Blog App Web QR Code" 
-      class="w-20 h-20 rounded-lg shadow-lg bg-white p-1"
-    />
-    <div class="text-center">
-      <h3 class="text-base font-bold mb-0.5">Blog App Web</h3>
-      <a 
-        href="https://blog.lhowsam.com" 
-        target="_blank" 
-        class="flex items-center justify-center gap-1.5 text-xs opacity-80 hover:opacity-100 transition"
-      >
-        <div class="i-carbon-screen w-3 h-3" />
-      </a>
-    </div>
-  </div>
-
+<div style="text-align: center;">
+<p><strong>TestFlight</strong></p>
+<img src='/assets/testflight.png' alt='TestFlight QR Code' class='w-40 h-40' />
 </div>
 
+<div style="font-size: 3rem;">→</div>
+
+<div style="text-align: center;">
+<p><strong>Movie App</strong></p>
+<img src='/assets/movie-app.png' alt='Movie App QR Code' class='w-40 h-40' />
+</div>
+
+<div style="font-size: 3rem;">→</div>
+
+<div style="text-align: center;">
+<p><strong>Blog App</strong></p>
+<img src='/assets/blog-app.png' alt='Blog App QR Code' class='w-40 h-40' />
+</div>
+</div>
+
+Web blog: https://exp-blog.lhowsam.com
+
+Web movie: https://exp-movies.lhowsam.com
+
 <!--
-Feel free to scan any of these QR codes to access the resources. You can see both the iOS (Expo) and Web versions of the Movie and Blog apps.
+We're going to be building two apps today. A static blog app and a movie app. Feel free to scan these qr codes and give it a go. If you're on IOS you will need to download the testflight app first and then scan the QR code. Now you may notice that there is only an ios and web link. Why not android? well google are unfortunately very restrictive around what they allow you to publish. In order to provide an open test link that you can scan with a QR code, I'd have to invite 12 internal testers to test the app for a minimum of 2 weeks. And even then they may reject you. So it was just easier to not include the android link. The apps all work on Android, if you want to try it out you can download the codebases and run it locally.
 -->

@@ -31,6 +31,7 @@ add conclusion slide
 replace tweet screenshot with tweet comp
 Add client side representation of react-navigation (screenshot) ✅
 talk about how its dificult to deploy your own SSR server ✅
+jetpack compose + swift ui via expo ui
 -->
 
 <!-- make it display presenter notes full screen instead of just on the right -->
@@ -53,7 +54,11 @@ src: ./pages/intro-p2.md
 ---
 
 ---
-src: ./pages/house-keeping.md
+src: ./pages/intro-pt3.md
+---
+
+---
+src: ./pages/structure.md
 ---
 
 ---
@@ -74,6 +79,10 @@ src: ./pages/term-stack-navigation.md
 
 ---
 src: ./pages/term-stack-navigation-2.md
+---
+
+---
+src: ./pages/term-stack-navigation-3.md
 ---
 
 ---

@@ -34,5 +34,5 @@ export async function onSubmit(message: string) {
 ```
 
 <!--
-This is where the magic happens. The client calls this, but it executes entirely on the server. We can track state and stream responses.
+This is where the magic happens. The client calls this, but it executes entirely on the server. We can track state and stream responses. This i
 -->

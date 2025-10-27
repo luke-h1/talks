@@ -38,5 +38,5 @@ level: 2
 </div>
 
 <!--
-Stack navigation is a way for your app to transition between screens where each new screen is placed on top of a stack. You can think of it like a stack of plates - each new plate is placed on top of the previous one. Within a tab, you can have multiple stacks, and each stack can have multiple screens. Screens can also render on different tabs. So in our app for example, we have a home tab and an authors tab. We can have a stack of screens for the home tab and a stack of screens for the authors tab. We can also have a screen that belongs to both the home tab and the authors tab.
+in the authors tab, we can navigate to an author detail screen from the authors tab.
 -->
