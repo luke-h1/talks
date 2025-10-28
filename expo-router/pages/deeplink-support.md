@@ -42,5 +42,5 @@ const linking = {
 ```
 
 <!--
-Finally we need to create a linking configuration for our app. This is used to handle deep linking and navigation to our app when its linked to from websites or other apps. We need to update this anytime we adda new screen
+Finally we need to create a linking configuration for our app. This is used to handle deep linking and navigation to our app when its linked to from websites or other apps. We need to update this anytime we add new screens
 -->

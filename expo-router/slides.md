@@ -119,11 +119,11 @@ src: ./pages/react-navigation-pt0.md
 ---
 
 ---
-src: ./pages/bk-mention.md
+src: ./pages/react-navigation-pt1.md
 ---
 
 ---
-src: ./pages/react-navigation-pt1.md
+src: ./pages/bk-mention.md
 ---
 
 ---
