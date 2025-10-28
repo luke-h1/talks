@@ -59,6 +59,7 @@ resource "cloudflare_pages_project" "expo_router" {
     build_command   = "cd expo-router && bun install && bun run build"
     destination_dir = "expo-router/dist"
     root_dir        = "/"
+    build_caching = true
   }
 
   source {
