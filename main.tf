@@ -8,6 +8,12 @@ terraform {
 }
 
 provider "cloudflare" {
+  api_token = var.cf_api_token
+}
+
+variable "cf_api_token" {
+  description = "Cloudflare API token"
+  type        = string
 }
 
 variable "cloudflare_account_id" {
@@ -18,7 +24,6 @@ variable "cloudflare_account_id" {
 variable "cloudflare_zone_id" {
   description = "Cloudflare Zone ID for lhowsam.com"
   type        = string
-  default = "015a64893281019df437a7c22ba82957"
 }
 
 variable "base_domain" {
@@ -210,18 +215,16 @@ resource "cloudflare_workers_script" "talks_proxy" {
   module = true
 }
 
-# Worker route for the base domain
 resource "cloudflare_workers_route" "talks_base" {
   zone_id     = var.cloudflare_zone_id
   pattern     = "${var.base_domain}/*"
   script_name = cloudflare_workers_script.talks_proxy.name
 }
 
-# DNS record for the base domain
 resource "cloudflare_record" "talks_base" {
   zone_id = var.cloudflare_zone_id
   name    = "talks"
-  content = "192.0.2.1" # Placeholder IP for Workers
+  content = "192.0.2.1"
   type    = "A"
   proxied = true
   comment = "Managed by Terraform - Talks proxy"
