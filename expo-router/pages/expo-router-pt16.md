@@ -6,14 +6,13 @@ layout: center
 # The Server function
 
 ```tsx
-// 🪄 This is a Server Action - callable from the client but runs on the server
+// 🪄 This is a Server Action - callable from the client but runs *only* on the server
+
 export async function onSubmit(message: string) {
   "use server";
 
-  // 🪄 Get mutable state to track conversation history
   const aiState = getMutableAIState();
 
-  // 🪄 Add user's message to the conversation
   aiState.update({
     ...aiState.get(),
     messages: [
@@ -22,10 +21,8 @@ export async function onSubmit(message: string) {
     ],
   });
 
-  // 🪄 Access Expo's request headers for user context
   const headers = await unstable_headers();
 
-  // 🪄 Stream UI components back to the client as AI responds
   const result = await streamUI({
     model: openai("gpt-4o-mini"),
     // ...
@@ -34,5 +31,5 @@ export async function onSubmit(message: string) {
 ```
 
 <!--
-This is where the magic happens. The client calls this, but it executes entirely on the server. We can track state and stream responses. This i
+This is where the magic happens. The client calls this, but it executes entirely on the server. We first get the state from the ai sdk, add the users message to the conversation, try to get any headers from the request to personalize the response (such as city,country, platform the user is using) and then we call streamUI to start the streaming process.
 -->

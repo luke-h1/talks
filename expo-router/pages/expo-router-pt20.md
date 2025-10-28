@@ -26,5 +26,5 @@ layout: center
 ```
 
 <!--
-The generate function here, is responsible for fetching the data from the API and actually generating the result. First the user sees a skeleton, then we fetch data, then we return the final component. All streamed to the client as React components.
+The generate function here, is responsible for fetching the data from the API and actually generating the result. We yield the movie skeleton immediately so that the suspense boundary can show a loading state.  then we fetch data, then we return the final component. All streamed to the client as server components.
 -->

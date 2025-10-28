@@ -19,7 +19,7 @@ layout: two-cols
 
 <v-click>
 <video v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, transition: { delay: 300, duration: 600 } }" src="/assets/perplexity.mov" alt="AI horror movies" 
- autoplay loop muted playsinline
+ autoplay loop muted playsinline 
  style="width: 300px; height: 400px; object-fit: contain;"
 />
 </v-click>

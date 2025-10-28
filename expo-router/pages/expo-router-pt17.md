@@ -14,11 +14,9 @@ const result = await streamUI({
       content: `
 You are a helpful movie and TV show assistant.
 
-// 🪄 Guard rail: Only respond to movie/TV questions
 IMPORTANT: If not about movies/TV, respond with:
 "I only respond to TV / movie questions."
 
-// 🪄 Use Expo Router headers for personalization
 User info:
 - city: ${headers.get("eas-ip-city")}
 - country: ${headers.get("eas-ip-country")}
@@ -30,5 +28,5 @@ User info:
 ```
 
 <!--
-We can use Expo Router's headers to personalize the AI's responses based on user location and platform. All processed server-side. We then just craft a prompt so that the AI doesnt hopefully go off topic.
+This is our prompt. You're a helpful assitant to help the user decide on what to watch this halloween. the 'system' role is just used for setting general instructions and guidlines. Assitant represents the ai reply and user represents the user's message.
 -->
