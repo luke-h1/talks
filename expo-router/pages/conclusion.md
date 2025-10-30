@@ -35,7 +35,6 @@ layout: center
 - ✅ File-based routing
 - ✅ Web-first approach
 - ⚠️ Newer, still maturing but getting better with each release
-- ✅ Use if you want a modern, web-first approach and are building native apps and websites
 
 </div>
 
@@ -44,9 +43,7 @@ layout: center
 </div>
 
 <!--
-So to wrap up - both React Navigation and Expo Router are excellent choices. React Navigation gives you battle-tested reliability and is perfect if you need maximum flexibility. Expo Router brings modern file-based routing, server-side rendering, and excellent web support.
+So to wrap up - both React Navigation and Expo Router are excellent choices. React Navigation gives you battle-tested reliability and is perfect if you need maximum flexibility. Expo Router brings modern file-based routing, server-side rendering, and excellent web support, so it makes it easier to onboard web devs to a native codebase
 
 The great news is that Expo Router is built on React Navigation, so you're not really choosing between competing technologies - you're choosing your level of abstraction.
-
-For new projects, especially those targeting web, Expo Router is increasingly becoming the go-to choice. For existing apps or when you need specific customization, React Navigation remains solid.
 -->
