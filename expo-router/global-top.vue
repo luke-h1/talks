@@ -13,7 +13,7 @@
 
     <!-- Top Right Link -->
     <a
-      href="https://twitter.com/LukeH_1999"
+      href="https://x.com/luke_h1__"
       target="_blank"
       class="text-xs text-gray-600 hover:text-blue-500 pointer-events-auto transition-colors flex items-center gap-2"
     >

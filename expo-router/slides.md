@@ -270,6 +270,10 @@ src: ./pages/expo-router-pt21.md
 src: ./pages/conclusion.md
 ---
 
+---
+src: ./pages/thanks.md
+---
+
 <!--
 terminology:
   Stack + Tab Navigation
