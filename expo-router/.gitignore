@@ -5,3 +5,15 @@ dist
 .vite-inspect
 .remote-assets
 components.d.ts
+.vercel
+
+# Terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfplan
+*.tfplan.json
+
+*.tfvars

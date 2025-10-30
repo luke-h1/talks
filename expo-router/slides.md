@@ -275,15 +275,7 @@ src: ./pages/expo-router-pt21.md
 ---
 
 ---
-src: ./pages/expo-router-pt22.md
----
-
----
 src: ./pages/conclusion.md
----
-
----
-src: ./pages/thanks.md
 ---
 
 <!--

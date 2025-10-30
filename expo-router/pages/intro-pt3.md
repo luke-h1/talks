@@ -15,10 +15,6 @@ layout: two-cols
 
 ::right::
 
-<div v-click>
-
-</div>
-
 <div v-click class="flex items-center justify-center">
 <Tweet id="1932367222145478964" scale={0.75} />
 </div>

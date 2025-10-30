@@ -7,12 +7,15 @@ transition: fade
 
 <div class="text-left max-w-3xl">
 
-1. **Introduction** ✅
-2. **Resources** - Demos
-3. **Terminology** - Stack & Tab Navigation, Architecture (Old vs New)
-4. **React Navigation** - Intro, Building Native Apps & Websites
-5. **Expo Router** - Intro, File-Based Routing, Server Platform, Advanced Features, Building Native Apps & Websites, live demos
-6. **Conclusion**
+<ol style="font-size: 1.3rem; line-height: 2;">
+  <li v-click>**Introduction** ✅</li>
+  <li v-click>**Resources** - Demos</li>
+  <li v-click>**Terminology** - Stack & Tab Navigation, Architecture (Old vs New)</li>
+  <li v-click>**React Navigation** - Intro, Building Native Apps & Websites</li>
+  <li v-click>**Expo Router** - Intro, File-Based Routing, Server Platform, Advanced Features, Building Native Apps & Websites, live demos</li>
+  <li v-click>**Conclusion**</li>
+</ol>
+
 </div>
 
 <!--

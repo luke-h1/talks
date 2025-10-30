@@ -3,14 +3,21 @@ transition: fade
 layout: center
 ---
 
-# Conclusion
+<div
+  v-motion
+  :initial="{ x: -80 }"
+  :enter="{ x: 0 }"
+  :leave="{ x: 1000 }"
+  style="font-size: 4rem; font-weight: 800; padding: 0.5rem; display: inline-block; line-height: 1.2;"
+>
+  <span>
+    Conclusion
+  </span> 
+</div>
 
 <div v-click="1">
 
-## Key Takeaways
-
 <div class="grid grid-cols-2 gap-8 mt-8 text-left">
-
 <div class="p-6 bg-blue-600/20 border border-blue-400/30 rounded-lg">
 
 ### React Navigation

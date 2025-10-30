@@ -8,11 +8,10 @@ layout: center
 ```tsx
       async *generate({ query, media_type, time_window, generated_description }) {
 
-        // 🪄 First: Show loading skeleton immediately
         yield <MoviesSkeleton />;
 
-        // 🪄 Then: Fetch data from TMDB
         let results = [];
+
         if (query) {
           const data = await tmdbFetch(`/search/${media_type}?query=${query}`);
           results = data.results;
