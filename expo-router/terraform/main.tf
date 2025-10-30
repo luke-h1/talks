@@ -35,8 +35,6 @@ resource "cloudflare_pages_project" "expo_router_talk" {
     }
   }
 }
-
-# DNS Record for Custom Domain
 resource "cloudflare_record" "expo_router_cname" {
   zone_id = var.cloudflare_zone_id
   name    = "expo-router"
