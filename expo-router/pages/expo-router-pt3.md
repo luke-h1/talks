@@ -39,7 +39,7 @@ layout: two-cols
   </div>
 
   <div  style="margin-left: 4rem; color: rgb(192, 132, 252);">
-    📄 events.tsx <v-click><span style="color: rgb(148, 163, 184); font-size: 0.9rem; margin-left: 1rem;">→ /profile/events</span></v-click>
+    📄 [id].tsx <v-click><span style="color: rgb(148, 163, 184); font-size: 0.9rem; margin-left: 1rem;">→ /profile/12345</span></v-click>
   </div>
   <div  style="margin-left: 4rem; color: rgb(192, 132, 252);">
     📄 _layout.tsx <v-click><span style="color: rgb(148, 163, 184); font-size: 0.9rem; margin-left: 1rem;">→ profile layout</span></v-click>

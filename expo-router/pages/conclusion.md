@@ -12,7 +12,7 @@ layout: center
 >
   <span>
     Conclusion
-  </span> 
+  </span>
 </div>
 
 <div v-click="1">
@@ -24,9 +24,7 @@ layout: center
 
 - ✅ Battle-tested & mature
 - ✅ Wide ecosystem support
-- ✅ Flexible and powerful
-- ⚠️ Requires boilerplate
-- ⚠️ Client-side only out of the box
+- ✅ Fine to use if you want max control and are only building native apps
 
 </div>
 
@@ -35,29 +33,13 @@ layout: center
 ### Expo Router
 
 - ✅ File-based routing
-- ✅ Server-side rendering
-- ✅ Built on React Navigation
 - ✅ Web-first approach
 - ⚠️ Newer, still maturing but getting better with each release
+- ✅ Use if you want a modern, web-first approach and are building native apps and websites
 
 </div>
 
 </div>
-
-</div>
-
-<div v-click="2" class="mt-12">
-
-## Which Should You Choose?
-
-**React Navigation**: When you need maximum control and flexibility  
-**Expo Router**: When you want modern primitives and web parity
-
-</div>
-
-<div v-click="3" class="mt-8 text-2xl font-semibold">
-
-🚀 The future of React Native navigation is bright!
 
 </div>
 

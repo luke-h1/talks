@@ -110,9 +110,9 @@ src: ./pages/term-new-architecture-pt2.md
 src: ./pages/term-new-architecture-pt-3.md
 ---
 
----
-src: ./pages/term-deep-linking.md
----
+<!--
+deep linking term used to be here - cut out due to time constraints
+-->
 
 ---
 src: ./pages/react-navigation-pt0.md
@@ -144,10 +144,6 @@ src: ./pages/react-navigation-pt6.md
 
 ---
 src: ./pages/react-navigation-pt-7.md
----
-
----
-src: ./pages/deeplink-support.md
 ---
 
 ---
@@ -210,13 +206,13 @@ src: ./pages/expo-router-pt8.md
 src: ./pages/expo-router-pt9.md
 ---
 
----
-src: ./pages/expo-router-pt10.md
----
+<!--
+Expo router pt10 used to be here - cut out due to time constraints
+-->
 
----
-src: ./pages/expo-server-plat.md
----
+<!--
+expo-server-plat.md used to be here - cut out due to time constraints
+-->
 
 ---
 src: ./pages/expo-router-pt11.md
@@ -230,13 +226,9 @@ src: ./pages/expo-router-pt12.md
 src: ./pages/expo-router-pt13.md
 ---
 
----
-src: ./pages/server-driven-ui.md
----
-
----
-src: ./pages/server-driven-ui-pt2.md
----
+<!--
+server driven ui slides used to be here - cut out due to time constraints
+-->
 
 ---
 src: ./pages/server-funcs.md

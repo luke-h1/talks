@@ -17,7 +17,6 @@ provider "cloudflare" {
   api_token = var.cf_api_token
 }
 
-# Cloudflare Pages project (infrastructure only)
 resource "cloudflare_pages_project" "expo_router_talk" {
   account_id        = var.cloudflare_account_id
   name              = "expo-router-talk"
