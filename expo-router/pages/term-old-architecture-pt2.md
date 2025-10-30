@@ -81,5 +81,5 @@ transition: fade
 </style>
 
 <!--
-And in the old architecture, this is done via a bridge. The bridge is responsible for facilitating the communication between the JS thread and the native thread. Communication happens by sending JSON messages back and forth between the two threads.  the JS thread will send a message to the native thread and the native thread will parse the message and execute the corresponding native code. The native thread will then send a response back to the JS thread. So it's bidirectional communication
+And in the old architecture, this is done via a bridge. The bridge is responsible for facilitating all communication between the JS thread and the native thread. Communication happens by sending JSON messages back and forth between the two threads. the JS thread will send a message to the native thread, the bridge will parse that json and the native thread will then execute the corresponding native code. The native thread might also send a message back to the JS thread. So it's bidirectional communication
 -->

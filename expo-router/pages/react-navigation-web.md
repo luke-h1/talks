@@ -13,10 +13,11 @@ layout: center
   <span style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Web support</span> 
 </div>
 
-<div style="margin-top: 2rem; font-size: 1.5rem;">
-  <ul>
-    <li v-click>🤔 Webpack</li>
+<div style="margin-top: 2rem; font-size: 1.5rem; display: flex; align-items: center; gap: 2rem;">
+  <ul v-click style="margin: 0;">
+    <li>🤔 Webpack</li>
   </ul>
+  <img src='/assets/webpack.jpg' style='width: 300px; height: 300px;' v-click />
 </div>
 
 <!--

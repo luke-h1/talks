@@ -28,5 +28,5 @@ transition: fade
 </div>
 
 <!--
-Expo is turning the heat up on the React framework and pushing it to its limits. I adjusted the blog application we just built to use native tabs for ios and android, which also ended up making the web version look a bit cleaner. So you have a lot of power at your fingertips to use the platform to its full capability wherever you are
+Expo is turning the heat up on the React framework and pushing it to its limits. I adjusted the blog application we just built to use native tabs for ios and android, which also ended up making the web version look a bit cleaner. So you have a lot of power at your fingertips to use each platform you're working on to its full limits
 -->

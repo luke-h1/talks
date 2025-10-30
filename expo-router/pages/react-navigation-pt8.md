@@ -30,5 +30,5 @@ transition: fade
 </div>
 
 <!--
-That's it, we've created our app. We've got typescript support, a tab & stack navigator, a list of blog posts and a detail screen for each blog post. Web support - not really. I tried to build this project for web using react navigation and I kind of ran out of time fighting with it. Long story short it involves configuring webpack and making it play nice with React and everything else. I think i could have gotten it to work, but I felt it wasn't worth the effort.
+That's it, we've created our app. We've got typescript support, a tab & stack navigator, a list of blog posts and a detail screen for each blog post. Web support - no.
 -->

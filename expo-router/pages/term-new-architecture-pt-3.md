@@ -30,5 +30,7 @@ transition: fade
 </div>
 
 <!--
-Why do we care? Well the new arch allows us to use the latest React features. Server functions, suspense boundaries. The expo/meta team are also actively working on supporting advanced features like server side rendering, partial pre-rendering, incremental static regeneration and all that good stuff we know and love on web. Without that some of the demos I'm going to show you today wouldn't be possible.
+Why do we care? Well the new arch allows us to use the latest React features. Server functions, suspense boundaries. Without that some of the demos I'm going to show you today wouldn't be possible. It's also enabling the expo & meta team to work on supporting advanced server side rendering techniques like partial pre-rendering, incremental static regeneration and all that good stuff we know and love on web.
+
+* Everything much faster for authors and consumers
 -->

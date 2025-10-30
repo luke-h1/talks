@@ -171,11 +171,11 @@ src: ./pages/react-navigation-pt9.md
 ---
 
 ---
-src: ./pages/expo-router.md
+src: ./pages/expo-router-pt2.md
 ---
 
 ---
-src: ./pages/expo-router-pt2.md
+src: ./pages/expo-router.md
 ---
 
 ---
