@@ -24,12 +24,11 @@ transition: fade
       <li v-click style="margin-bottom: 0.5rem;">✅ Tab navigator (Home & Authors screens)</li>
       <li v-click style="margin-bottom: 0.5rem;">✅ Stack navigator (Article & Author detail screens)</li>
       <li v-click style="margin-bottom: 0.5rem;">✅ List of Blog posts </li>
-      <li v-click style="margin-bottom: 0.5rem;">🚧 Deep linking configuration</li>
       <li v-click style="margin-bottom: 0.5rem;">❌ Web support</li>
     </ul>
   </div>
 </div>
 
 <!--
-That's it, we've created our app. We've got typescript support, a tab & stack navigator, a list of blog posts and a detail screen for each blog post. We've also got deep linking support and we're able to navigate to the app from other apps or websites. Now I've marked that as a wip because there is so many different connotations and paths that need to be handled with deep linking. But the basics are there. Web support - not really. I tried to build this project for web using react navigation and I kind of ran out of time fighting with it. Long story short it involves configuring webpack and making it play nice with React and everything else. I think i could have gotten it to work, but I felt it wasn't worth the effort.
+That's it, we've created our app. We've got typescript support, a tab & stack navigator, a list of blog posts and a detail screen for each blog post. Web support - not really. I tried to build this project for web using react navigation and I kind of ran out of time fighting with it. Long story short it involves configuring webpack and making it play nice with React and everything else. I think i could have gotten it to work, but I felt it wasn't worth the effort.
 -->

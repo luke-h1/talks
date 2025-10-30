@@ -64,21 +64,18 @@ const AppStack = () => {
   );
 };
 ```
-
-```
-
-```
 ````
 
 <!--
 Much like the tab param list, we need to create a stack param list. This lists all the available screens that our app can route to. 
 
-* First we need to registr our tab with the navigator
+* First we need to register our tab with the navigator
 
 * So for our example we know our author and article screens need to be passed an id param to fetch them from the cms
 
-*  Next we need to create a helper type to get the stack props for a given screen. This makes sure that all the parameter that we destructure in our screens are typed correctly
+*  Next we need to create a helper type to get the stack props for a given screen. 
 
+* This makes sure that all the parameter that we destructure in our screens are typed correctly
 
 * And thats pretty much it, we can go ahead and render our stack
 -->

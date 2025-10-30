@@ -19,12 +19,11 @@ transition: fade
       <li style="margin-bottom: 0.5rem;" v-click>Display a list of blog posts</li>
       <li style="margin-bottom: 0.5rem;" v-click>Navigate to a blog post detail screen</li>
       <li style="margin-bottom: 0.5rem;" v-click>Author and author slug page</li>
-      <li style="margin-bottom: 0.5rem;" v-click>Deep linking support</li>
       <li style="margin-bottom: 0.5rem;" v-click>Web support</li>
     </ul>
   </div>
 </div>
 
 <!--
-Requirements. We need well typed navigation, a list of blog posts, a detail screen for each blog post, author and author slug page, deep linking support and web support.
+Requirements. We need well typed navigation, a list of blog posts, a detail screen for each blog post, author and author slug page, and web support.
 -->
