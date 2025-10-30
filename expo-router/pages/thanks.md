@@ -44,7 +44,7 @@ transition: fade
 ### 🔗 Connect
 
 - GitHub: [github.com/luke-h1](github.com/luke-h1)
-- Twitter: [x.com/luke_h1](x.com/luke_h1__)
+- Twitter: [x.com/luke_h1\_\_](x.com/luke_h1__)
 - LinkedIn: [linkedin.com/in/lukehowsam](linkedin.com/in/lukehowsam)
 - Website: [lhowsam.com](lhowsam.com)
 
