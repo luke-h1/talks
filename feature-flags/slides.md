@@ -40,7 +40,6 @@ layout: two-cols
     </p>
   </div>
 
-
   <div class="flex gap-4 items-center mt-4 text-sm">
     <ph-linkedin-logo class="c-gray-500" />
     <a href="https://www.linkedin.com/in/lukehowsam/">lukehowsam</a>
