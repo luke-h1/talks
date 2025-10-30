@@ -10,6 +10,7 @@
   "scripts": {
     "prettier:fix": "prettier --write .",
     "prettier:check": "prettier --check .",
+    "fmt:tf": "terraform fmt -recursive expo-router/terraform",
     "prepare": "husky"
   },
   "lint-staged": {

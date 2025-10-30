@@ -25,12 +25,12 @@ resource "cloudflare_pages_project" "expo_router_talk" {
   deployment_configs {
     preview {
       environment_variables = {
-        NODE_VERSION = "20"
+        NODE_VERSION = "22"
       }
     }
     production {
       environment_variables = {
-        NODE_VERSION = "20"
+        NODE_VERSION = "22"
       }
     }
   }

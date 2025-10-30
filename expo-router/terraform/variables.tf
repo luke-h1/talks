@@ -17,6 +17,6 @@ variable "cloudflare_zone_id" {
 variable "production_branch" {
   description = "Production branch name"
   type        = string
-  default     = "@luke-h1/feat/expo-router-talk"
+  default     = "main"
 }
 
