@@ -28,7 +28,7 @@ layout: center
 
 </div>
 
-<div class="p-6 bg-purple-600/20 border border-purple-400/30 rounded-lg">
+<div class="p-6 bg-purple-600/20 border border-purple-400/30 rounded-lg" v-click="2">
 
 ### Expo Router
 
