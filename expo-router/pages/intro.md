@@ -35,7 +35,17 @@ class: "relative"
 </div>
 
 <div class="absolute bottom-24 right-12 flex items-center gap-6 text-base">
-  <div v-click="1" class="flex flex-col gap-3">
+
+<div v-click="1">
+  <div class="flex flex-col gap-2">
+    <div class="px-4 py-2 bg-purple-600/30 border border-purple-400/50 rounded-lg backdrop-blur flex items-center gap-2">
+      <img src="/assets/swm.webp" alt="Software Mansion" class="w-6 h-6" />
+      <span class="font-mono">Software Mansion</span>
+    </div>
+  </div>
+</div>
+
+  <div v-click="2" class="flex flex-col gap-3">
     <div class="px-4 py-2 bg-purple-600/30 border border-purple-400/50 rounded-lg backdrop-blur flex items-center gap-2">
       <img src="/assets/kotlin.png" alt="Kotlin" class="w-6 h-6" />
       <span class="font-mono">Kotlin</span>
@@ -46,17 +56,17 @@ class: "relative"
     </div>
   </div>
   
-  <div v-click="2" class="flex items-center">
+  <div v-click="3" class="flex items-center">
     <div class="i-carbon-arrow-right w-12 h-12 text-blue-400 animate-pulse" />
   </div>
   
-  <div v-click="2" class="px-6 py-4 bg-blue-600/30 border-2 border-blue-400/50 rounded-lg backdrop-blur shadow-xl flex items-center gap-3">
+  <div v-click="4" class="px-6 py-4 bg-blue-600/30 border-2 border-blue-400/50 rounded-lg backdrop-blur shadow-xl flex items-center gap-3">
     <img src="/assets/expo.png" alt="Expo" class="w-8 h-8" />
     <span class="font-mono font-semibold text-xl">React Native + Expo ❤️</span>
   </div>
 </div>
 
 <!--
-Hey, I'm Luke. I'm a SWE working at Sporting Life / TimeForm. Sporting news website. The websites and apps we build provide things such as real time statistics, data visualization of popular sports like football, cricket, horse-racing as well as editorial content.
-Most recently I've been collaborating with them alongside Software Mansion (react native consultancy) to help them migrate their existing native apps (kotlin, Swift) over to React Native along with native modules where needed
+Hey, I'm Luke. I'm a SWE working at Sporting Life / TimeForm. The websites and apps we build provide things such as real time statistics, data visualization of popular sports like football, cricket, horse-racing as well as editorial content like article.
+Most recently I've been collaborating with sporting life alongside Software Mansion (react native consultancy) to help them migrate their existing native apps (kotlin, Swift) over to React Native and expo
 -->
