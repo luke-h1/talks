@@ -1,5 +1,11 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "buildCommand": "pnpm run build -- --base /feature-flags/",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/feature-flags/(.*)",
+      "destination": "/feature-flags/$1"
+    }
+  ],
+  "cleanUrls": true
 }

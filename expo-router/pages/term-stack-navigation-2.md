@@ -1,0 +1,42 @@
+---
+transition: slide-up
+level: 2
+---
+
+<div
+  v-motion
+  :initial="{ x: -80 }"
+  :enter="{ x: 0 }"
+  :leave="{ x: 1000 }"
+  style="background: linear-gradient(to right, rgb(96, 165, 250), rgb(192, 132, 252), rgb(251, 146, 188)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 3rem; font-weight: 800; padding: 0.5rem; display: inline-block; line-height: 1.2;"
+>
+  Stack Navigation
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 2rem; margin-top: 2rem;">
+  <div style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <span style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: #60a5fa;">Authors</span>
+      <img v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, transition: { delay: 300, duration: 600 } }" src="/assets/authors.png" class="rounded-lg shadow-xl" style="width: 220px; height: 400px; object-fit: contain;" />
+    </div>
+    <div style="font-size: 2rem; color: #60a5fa; padding: 0 0.5rem;">→</div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <span style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: #c084fc;">Author Detail</span>
+      <img v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, transition: { delay: 450, duration: 600 } }" src="/assets/author-slug.png" class="rounded-lg shadow-xl" style="width: 220px; height: 400px; object-fit: contain;" />
+    </div>
+    <!-- <div style="font-size: 2rem; color: #c084fc; padding: 0 0.5rem;">→</div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <span style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: #fb92bc;">Authors</span>
+      <img v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, transition: { delay: 600, duration: 600 } }" src="/assets/authors.png" class="rounded-lg shadow-xl" style="width: 220px; height: auto; object-fit: contain;" />
+    </div> -->
+  </div>
+  <!-- <div style="font-size: 2rem; color: #fb92bc;">↓</div>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <span style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: #fb92bc;">Author Detail</span>
+    <img v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, transition: { delay: 750, duration: 600 } }" src="/assets/author-slug.png" class="rounded-lg shadow-xl" style="width: 220px; height: auto; object-fit: contain;" />
+  </div> -->
+</div>
+
+<!--
+in the authors tab, we can navigate to an author detail screen from the authors tab.
+-->

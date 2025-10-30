@@ -30,10 +30,10 @@ export default defineShikiSetup(async ({ loadTheme }) => {
   return {
     theme: {
       dark: await loadTheme(
-        require.resolve(`${prefix}/public/theme/theunnamed-dark-theme.json`)
+        require.resolve(`${prefix}/public/theme/theunnamed-dark-theme.json`),
       ),
       light: await loadTheme(
-        require.resolve(`${prefix}/public/theme/theunnamed-dark-theme.json`)
+        require.resolve(`${prefix}/public/theme/theunnamed-dark-theme.json`),
       ),
     },
     highlighter: highlighter as any,

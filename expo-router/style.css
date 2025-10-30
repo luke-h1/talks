@@ -1,0 +1,12 @@
+/* Custom Presenter Mode Styles */
+.slidev-presenter .grid-container {
+  grid-template-areas:
+    "top top top"
+    "note note main"
+    "note note next"
+    "bottom bottom bottom" !important;
+}
+
+.slidev-presenter .note {
+  font-size: 1.75rem !important;
+}

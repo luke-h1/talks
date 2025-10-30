@@ -22,7 +22,6 @@ title: Feature Flags (FE Sheffield May)
 
 #### Frontend Sheffield May 2024
 
-
 ---
 layout: two-cols
 ---
@@ -40,7 +39,6 @@ layout: two-cols
     TypeScript, DevOps, anything frontend :)
     </p>
   </div>
-  
 
   <div class="flex gap-4 items-center mt-4 text-sm">
     <ph-linkedin-logo class="c-gray-500" />
@@ -95,7 +93,6 @@ clicks: 7
 ---
 
 ## Topics
-
 
 <div class='text-left'>
   <div v-click="1">
@@ -153,7 +150,7 @@ We usually get a feature requested or a business need come thru
 
 ---
 
-# Software delivery 
+# Software delivery
 
 ## Refine and estimate
 
@@ -181,7 +178,6 @@ We build the actual thing. We write the code, the unit tests and get people to r
 
 ### QA / testing happens
 
-
 <img src='/inspect.gif' width='500' />
 
 <!--
@@ -194,7 +190,6 @@ Once we've built the thing, QA engineers get involved. We usually deploy the fea
 
 ### Release
 
-
 <img src='/deploy-it.gif' width='500' />
 
 <!--
@@ -203,7 +198,7 @@ Last but not least, we release to production
 
 ---
 
-# Software delivery 
+# Software delivery
 
 ### Kaboom ?? 🧨
 
@@ -215,8 +210,7 @@ But what happens when things go south?
 
 ---
 
-# Software delivery 
-
+# Software delivery
 
 ### Panic
 
@@ -255,15 +249,14 @@ layout: two-cols
 clicks: 3
 ---
 
-# Software delivery 
+# Software delivery
 
 ## Consequences
 
-
 <img src='/slow.gif' width='450' />
 
-
 ::right::
+
 <div class='mt-50'>
   <div v-click='1'>
   <Star />
@@ -313,7 +306,6 @@ clicks: 1
 
 <img src="/homer-light-switch.gif" class="w-80 h-80" />
 
-
 ::right::
 
 <div v-click='1' class='mt-12'>
@@ -326,6 +318,7 @@ const HomePage = () => {
   return newFeature ? <NewFeature /> : <OldFeature />;
 }
 ```
+
 </div>
 
 <style>
@@ -341,7 +334,7 @@ Feature flags are a way to programatically turn features on and off in your app.
 
 ---
 
-# Feature flags 
+# Feature flags
 
 <img src="/ff-flow.png" class='w-350' />
 
@@ -385,7 +378,6 @@ clicks: 2
 ---
 
 ## Benefits
-
 
 A/B testing
 
@@ -492,9 +484,9 @@ Similar to percentage based rollouts but we are exposing features to users with 
 
 ---
 
-## Benefits 
+## Benefits
 
-Dev tools 
+Dev tools
 
 <img src='/fe-sheff-debug.png' />
 
@@ -535,7 +527,7 @@ Feature flags are very prevelant in the industry. Airbnb, GitHub, Netflix, all t
 
 ---
 
-# Code patterns 
+# Code patterns
 
 <img src='/code-patterns.gif' />
 
@@ -594,11 +586,11 @@ layout: comparison
 
 export const featureFlags: FeatureFlag[] = [
   {
-    name: 'redesign-2024',
-    description: 'Redesigned page for 2024',
+    name: "redesign-2024",
+    description: "Redesigned page for 2024",
     enabled: false,
     overrides: {
-      name: 'redesign-2024',
+      name: "redesign-2024",
       value: process.env.OVERRIDE_SECRET,
     },
   },
@@ -651,7 +643,7 @@ layout: center
 
 # All together now
 
-```typescript 
+```typescript
  const MyComponent = () => {
   const newFeature = useFeatureFlag('new-feature');
   return newFeature ? <NewFeature /> : <OldFeature />;
@@ -732,7 +724,6 @@ layout: section
 
 The current state of our client's codebase
 
-
 ```typescript{5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25|27,28,29,30,31,32,33,34}
 interface Props {
   posts: Post[];
@@ -785,9 +776,7 @@ Before we get started with integrating posthog into the codebase, let's have a p
 clicks: 2
 ---
 
-## Add the SDK to your project  
-
-
+## Add the SDK to your project
 
 <div v-click="1">
 ```typescript
@@ -800,9 +789,10 @@ pnpm i posthog-js
 ```typescript
 // .env
 
-NEXT_PUBLIC_POSTHOG_KEY="your-api-key"
-NEXT_PUBLIC_POSTHOG_HOST="your-region"
+NEXT_PUBLIC_POSTHOG_KEY = "your-api-key";
+NEXT_PUBLIC_POSTHOG_HOST = "your-region";
 ```
+
 </div>
 
 <!--
@@ -861,6 +851,7 @@ export default function Home({ posts }: Props) {
 <!--
 So the first thing we need to do is to import the `useFeatureFlagEnabled` hook from posthog. And this does exactly what it's name says. We pass it the feature flag key that we created earlier and it will return a true or false value. If it's not enabled or the API call fails we show a message telling users to come back at 12
 -->
+
 ---
 layout: comparison
 clicks: 2
@@ -868,13 +859,14 @@ clicks: 2
 
 ## Result
 
-::a:: 
+::a::
 
 <div v-click="1">
 <img src="/blog-page.png" class="w-158"  />
 </div>
 
 ::b::
+
 <div v-click="2">
 <img src="/grand-opening.gif" class="w-158"  />
 </div>
@@ -900,7 +892,6 @@ We just need to go back to our dashboard in posthog and alter the amount of user
 ---
 
 Overrides?
-
 
 <img src='/hmm.gif' class='w-100' />
 
@@ -934,18 +925,20 @@ Enabling this for our site is super easy. All we need to do is give it access to
 
 ## Thanks!
 
-Slides 
-- https://feature-flags-24.talks.lhowsam.com 
-- https://feature-flags-24.talks.lhowsam.com/presenter
+Slides
 
+- https://feature-flags-24.talks.lhowsam.com
+- https://feature-flags-24.talks.lhowsam.com/presenter
 
 ### Resources:
 
 Repositories
+
 - Redis self-hosted feature flag service - https://dub.sh/rdabtest
 - Posthog example - https://dub.sh/lhabtest
 
-Feature flagging services 
+Feature flagging services
+
 - self hosted feature flagging service - https://unleash.github.io/
 - Config cat - https://configcat.com/
 - Launch Darkly - https://launchdarkly.com/
